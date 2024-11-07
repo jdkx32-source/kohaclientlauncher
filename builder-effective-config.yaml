@@ -1,0 +1,12 @@
+directories:
+  output: dist
+  buildResources: build
+appId: de.kohastudios.kohalauncher
+productName: KohaClientLauncher
+win:
+  target: nsis
+  icon: icons/icon.ico
+  extraFiles:
+    - ./.minecraft/**/*
+files: []
+electronVersion: 33.0.2
